@@ -1,0 +1,32 @@
+// Rename this file to config.json and place it in the same directory as 'CharGen.exe'. After renaming, remove all comments (// lines), including this line.
+{
+	// A path to your CKII and mod directory. Note that if the path includes '\' characters, these need to be replaced with '\\'.
+	"ckii_folder_path": "D:/SteamLibrary/steamapps/common/Crusader Kings II",
+	"mod_folder_path": "C:\\Users\\rickv\\Documents\\Programming\\Git\\DKRevival\\Diadochi Kings",
+
+	// The id of the first character to be generated.
+	"first_char_id": 3601,
+	// The dynasty of the characters.
+	"dynasty_id": 1,
+	// The culture of the characters.
+	"culture": "thracian",
+	// The religion of the characters.
+	"religion": "thracian_main",
+
+	// The minimum age of a character before he is able to die.
+	"min_age": 14,
+	// The minimum age of a character before he is able to have children.
+	"min_fertile_age": 14,
+	// The maximum age of a character.
+	"max_age": 65,
+	// The last age of the character where he is still able to have children.
+	"max_fertile_age": 45,
+
+	// The first character will be born on this date.
+	"min_year": 376,
+	// The last character will be born before this date.
+	"max_year": 495,
+
+	// The date when a character has to at least be a holder of a title.
+	"max_succession_year": 417
+}
